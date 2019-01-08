@@ -18,12 +18,13 @@
 
 int main(void) {
     char c;
-    while((c = getchar()) != EOF) {
+    while((c = getchar()) != '\n') {
         if (c == ' ' ) putchar(c);
         while( c == ' ' && (c != EOF)) {
             c = getchar();
         }
         putchar(c);
     }
+    putchar('\n');
     return 0;
 }
