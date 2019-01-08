@@ -4,6 +4,8 @@
  * @created     : Monday Jan 07, 2019 22:58:01 EST
  */
 
+// Fold the input text across some arbitrary column of input (in this case: MAX_COLUMN)
+
 #include <stdio.h>
 
 #define MAX_COLUMN 35
